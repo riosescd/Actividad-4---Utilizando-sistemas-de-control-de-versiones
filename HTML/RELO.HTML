@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/reloj.css">
+    <title>Reloj</title>
+</head>
+
+<body>
+    <div class="div">
+        <div class="espaciodiv">
+            <h1 class="titulos" >Hora</h1>
+            <input type="text" class="input" id="hora" disabled>
+        </div>
+        <div class="espaciodiv">
+            <h1 class="titulos" >Fecha</h1>
+            <input type="text" class="input" id="fecha" disabled>
+        </div>
+        <div class="espaciodivtemp">
+            <h1 class="titulos" >Cronometro</h1>
+            <input type="text" class="input" disabled id="crono">
+            <input type="button" value="Iniciar" class="botones" id="inicioc" onclick="iniciarcro()">
+            <input type="button" value="Pausar" class="botones" id="pausac" onclick="pausarcro()"> 
+            <input type="button" value="Reiniciar" class="botones" id="reiniciarc" onclick="reiniciarcro()">
+        </div>
+        <div class="espaciodivtemp">
+            <h1 class="titulos" >Temporizador</h1>
+            <input type="text" class="input" disabled>
+            <input type="button" value="Iniciar" class="botones" id="iniciot">
+            <input type="button" value="Pausar" class="botones" id="pausat">
+            <input type="button" value="Reiniciar" class="botones" id= "reiniciart">
+        </div>
+    </div>
+    <script src="../Js/reloj.js"></script>
+</body>
+
+</html>
