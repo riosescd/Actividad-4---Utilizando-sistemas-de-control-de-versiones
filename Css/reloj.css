@@ -23,14 +23,14 @@ body {
 
 }
 .titulos{
-    color:rgb(190, 95, 78) ;
+    color:rgb(97, 190, 78) ;
     
 }
 
 .botones {
     margin: 10px;
     border-radius: 10px;
-    background-color: rgb(150, 159, 211);
+    background-color: rgb(156, 24, 123);
     margin: 5%;
     padding: 0.7%;
 }
@@ -44,7 +44,7 @@ body {
     border: none;
     background-color: inherit;
     font-weight: 700;
-    background: -webkit-linear-gradient(90deg, rgb(240, 235, 205), rgb(190, 145, 78));
+    background: -webkit-linear-gradient(90deg, rgb(209, 180, 18), rgb(190, 145, 78));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
